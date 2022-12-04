@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>cascading css</title>
+        <link rel="stylesheet" href="external.css">
+        <style>
+            body{
+                font-family: 'Courier New', Courier, monospace;
+                color: blueviolet;
+                background-color:crimson;
+            }
+            p{
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Origin Example</h1>
+        <p>this is simple:last declaration wins
+            
+        </p>
+        <p style="color:black">
+            this is the conflict in which they merge
+        </p>
+    </body>
+</html>
